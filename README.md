@@ -35,35 +35,39 @@ You can install the required libraries using pip:
 pip install numpy pandas scikit-learn matplotlib seaborn xgboost imbalanced-learn
 ```
 
-## Cloning the Repository
+## Using Google Colab
 
-To clone this repository, follow these steps:
+We recommend using **Google Colab** to run this project. Colab provides an interactive environment where you can execute Python code easily without local setup. Here’s how to get started:
 
-1. Open a terminal or command prompt.
-2. Navigate to the directory where you want to clone the repository.
-3. Run the following command:
+1. **Open Google Colab**:
+   - Go to [Google Colab](https://colab.research.google.com/).
 
-```bash
-git clone https://github.com/ERo2203/GSTN-523-multi-model-classifier.git
-```
+2. **Clone the Repository**:
+   - Run the following command in a code cell to clone this repository:
 
-## Running the Project
+   ```bash
+   !git clone https://github.com/ERo2203/GSTN-523-multi-model-classifier.git
+   ```
 
-Once you have cloned the repository and installed the required libraries, you can run the Jupyter Notebook or Python script provided in this project. Here are the steps to run the notebook:
+3. **Navigate to the Project Directory**:
+   - Change to the project directory:
 
-1. Navigate to the project directory:
+   ```bash
+   %cd GSTN-523-multi-model-classifier
+   ```
 
-```bash
-cd GSTN-523-multi-model-classifier
-```
+4. **Install Required Libraries**:
+   - Since Colab does not come with all the libraries pre-installed, run this command in a cell:
 
-2. Open the Jupyter Notebook:
+   ```bash
+   !pip install numpy pandas scikit-learn matplotlib seaborn xgboost imbalanced-learn
+   ```
 
-```bash
-jupyter notebook
-```
+5. **Run the Code**:
+   - You can now open and run the Jupyter Notebook file (e.g., `binary_classification.ipynb`) within Google Colab. Execute each cell sequentially by clicking the play button.
 
-3. In your web browser, navigate to the notebook file (e.g., `binary_classification.ipynb`), and run the cells in order to execute the code.
+6. **Save Your Work**:
+   - You can save your changes directly to Google Drive or download the notebook to your local machine.
 
 ## License
 
@@ -75,4 +79,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [XGBoost](https://xgboost.readthedocs.io/en/stable/) for gradient boosting algorithms.
 - [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) for data visualization.
 ```
-
