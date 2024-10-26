@@ -19,8 +19,6 @@ This project focuses on developing a binary classification model using machine l
 
 ## Requirements
 
-Before running the project, make sure you have the following Python libraries installed:
-
 - `numpy`
 - `pandas`
 - `scikit-learn`
@@ -29,11 +27,6 @@ Before running the project, make sure you have the following Python libraries in
 - `xgboost`
 - `imbalanced-learn`
 
-You can install the required libraries using pip:
-
-```bash
-pip install numpy pandas scikit-learn matplotlib seaborn xgboost imbalanced-learn
-```
 
 ## Using Google Colab
 
