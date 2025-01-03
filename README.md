@@ -68,7 +68,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- [Scikit-Learn](https://scikit-learn.org/stable/) for machine learning algorithms.
+- [Scikit-Learn](https://scikit-learn.org/stable/) for this machine learning algorithms.
 - [XGBoost](https://xgboost.readthedocs.io/en/stable/) for gradient boosting algorithms.
 - [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) for data visualization.
 ```
